@@ -1,15 +1,14 @@
-resolver: lts-14.27
+resolver: lts-16.22
 
 packages:
 - '.'
 
 extra-deps:
-- HaskellNet-0.5.1@sha256:53f2cfffb140740691296f905a70143c859b571eea3f5cf5f7a4642851d9e38a,1584
-- mime-mail-0.4.14@sha256:22e54d99c3f9f21004c929f0cf0c7ab75fcee5e0666c03517157be61be6fea93,1647
-- network-2.8.0.1@sha256:0f165dffa752d8cde30c2bde86f80609c4f1dc5eeb3182d593041f97839c5b3b,3011
+- git: git@github.com:simspace/HaskellNet
+  commit: 54b385975e91675c2899faafd86282f1fff8d267
 
 flags: {}
 
 extra-package-dbs: []
 
-allow-newer: true
+# allow-newer: true
